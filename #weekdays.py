@@ -1,3 +1,6 @@
+#Prestons Schedule (will change if I have a vacation)
+
+
     #weekdays
 monday = [8.30, 3.12, 4.00, 6.30, 8.30]
 tuesday = [8.30, 2.20, 3.00, 6.30, 8.30]
@@ -15,3 +18,14 @@ extra_day_off = [9.00-10.00, 11.00, 5.00, 8.30]
 breakdays = [9.00-10.00, 11.30, 5.00, 10.00]
 lastbreakday = [9.00-10.00, 11.00, 5.00, 8.30]
 
+#Lineup 
+weekdays = [monday, tuesday, wednesday, thursday, friday]
+
+weekend = [saturday, sunday]
+
+dayoff = [sunday_extra_day, extra_day_off]
+
+actualbreaks = [breakdays, lastbreakday]
+
+
+#----------------------------------------
