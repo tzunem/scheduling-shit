@@ -26,3 +26,5 @@ actualbreaks = [breakdays, lastbreakday]
 
 
 #----------------------------------------
+
+print(weekend +' '+ weekdays +' '+ dayoff+' ')
