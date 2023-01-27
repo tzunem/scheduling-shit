@@ -1,3 +1,4 @@
-Available Days
+DO NOT CHANGE UNLESS YOU HAVE PERMISSION
 
-This is meant for Preston, Jayden and William to try and schedule open days.
+This should only be distrubuted to Jayden and william.
+Anyone else who this is given to should only be in our fg and if there is anyone else then I will be able to see it. 
