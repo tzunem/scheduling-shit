@@ -26,3 +26,5 @@ actualbreaks = [breakdays, lastbreakday]
 
 
 #----------------------------------------
+#please do not change any of this without asking me, i know sure as hell you cant code jj or william considering how stupid you both are
+ 
