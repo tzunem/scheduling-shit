@@ -26,3 +26,13 @@ actualbreaks = [breakdays, lastbreakday]
 
 
 #----------------------------------------
+first_lastname = input('''Hello! Please enter your first and last name.
+
+''')
+print("Hello there " + first_lastname )
+
+password = input('''Please make a password
+
+''')
+
+print(password + 'is now your password. Please remember it.')
