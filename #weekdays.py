@@ -1,4 +1,4 @@
-    #weekdays
+#weekdays
 monday = [8.30, 3.12, 4.00, 6.30, 8.30]
 tuesday = [8.30, 3.12, 3.00, 6.30, 8.30]
 wednesday = [8.30, 2.20, 4.00, 6.30, 8.30]
@@ -26,5 +26,13 @@ actualbreaks = [breakdays, lastbreakday]
 
 
 #----------------------------------------
+first_lastname = input('''Hello! Please enter your first and last name.
 
-print(weekend +' '+ weekdays +' '+ dayoff +' ')
+''')
+print("Hello there " + first_lastname )
+
+password = input('''Please make a password
+
+''')
+
+print(password + 'is now your password. Please remember it.')
