@@ -29,29 +29,30 @@ actualbreaks = [breakdays, lastbreakday]
 usernames = input('''Hello! Please enter your first and last name.
 
 ''')
-print("Hello there " + usernames )
+print("Hello there ",usernames,"!" )
 
-password = input('''ePlase make a password
+password = input('''Please create a password.
 
 ''')
 
-print(password + 'is now your password. Please remember it.')
+print(password + 'is now your password. Make sure to write it down somewhere.')
 #above is password and username that the user should know
 
-userask = input("""Input your username
+userask = input("""Please type in your username. It's case-sensitive too!
 
 """)
 #asks your username
 if userask == (usernames):
-    print("good")
+    print("Nice!")
     passask = input('''What is your password?
 
     ''')
 else:
-    print("bad")
+    print("Wrong username!")
     #if the username is right then it will ask your password, if not it will say bad
 if passask == (password):
-    print("good job")
+    print("Correct password! Welcome back", usernames, "!")
 else:
-    print("thats false")
+    print("Incorrect password.")
     #after it asks the password, it check if the password is right or not. if its not right then it will say thats false.
+
