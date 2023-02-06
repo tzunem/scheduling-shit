@@ -26,19 +26,19 @@ actualbreaks = [breakdays, lastbreakday]
 
 
 #----------------------------------------
-usernames = input('''Hello! Please enter your first and last name.
+usernames = input('''Hello! Please enter your first and last name. 
 
 ''')
-print("Hello there ",usernames,"!" )
+print("Username has been saved. Remember it!!") 
 
 password = input('''Please create a password.
 
 ''')
 
-print(password + 'is now your password. Make sure to write it down somewhere.')
+print('Your password has been saved. Remember it!')
 #above is password and username that the user should know
 
-userask = input("""Please type in your username. It's case-sensitive too!
+userask = input("""Please type in your username. It's case-sensitive! 
 
 """)
 #asks your username
