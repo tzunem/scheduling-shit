@@ -41,18 +41,11 @@ print('Your password has been saved. Remember it!')
 userask = input("""Please type in your username. It's case-sensitive! 
 
 """)
-#asks your username
-if userask == (usernames):
-    print("Nice!")
-    passask = input('''What is your password?
+passask = input('''What is your password?
 
-    ''')
-else:
-    print("Wrong username!")
-    #if the username is right then it will ask your password, if not it will say bad
-if passask == (password):
-    print("Correct password! Welcome back", usernames, "!")
-else:
-    print("Incorrect password.")
-    #after it asks the password, it check if the password is right or not. if its not right then it will say thats false.
+''')
 
+if userask == usernames and passask == password:
+    print("Welcome back", usernames, "!")
+else: 
+    print("Username or password is inccorrect! Remember, it's case-sensitive.")
