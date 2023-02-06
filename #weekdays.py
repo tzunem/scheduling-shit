@@ -48,4 +48,4 @@ passask = input('''What is your password?
 if userask == usernames and passask == password:
     print("Welcome back", usernames, "!")
 else: 
-    print("Username or password is inccorrect! Remember, it's case-sensitive.")
+    print("Username or password is incorrect! Remember, it's case-sensitive.")
