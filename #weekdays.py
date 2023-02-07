@@ -49,4 +49,11 @@ if userask == usernames and passask == password:
     print("Welcome back", usernames, "!")
 else: 
     print("Username or password is incorrect! Remember, it's case-sensitive.")
-
+print("Schedules and lists")
+print('''Monday
+Tuesday
+Wednesday
+Thursday
+Friday''')
+print("")
+askSchedules = input("What schedule of the day would you like to know?")
