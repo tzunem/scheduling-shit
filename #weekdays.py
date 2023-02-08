@@ -57,3 +57,19 @@ Thursday
 Friday''')
 print("")
 askSchedules = input("What schedule of the day would you like to know?")
+if askSchedules == "Monday":
+    print(monday)
+elif askSchedules == "Tuesday":
+    print(tuesday)
+elif askSchedules == "Wednesday":
+    print(wednesday)
+elif askSchedules == "Thursday":
+    print(thursday)
+elif askSchedules == "Friday":
+    print(friday)
+elif askSchedules == "Saturday":
+    print(saturday)
+elif askSchedules == "Sunday":
+    print(sunday)
+else:
+    print("Unknown schedule")
