@@ -49,27 +49,35 @@ if userask == usernames and passask == password:
     print("Welcome back", usernames, "!")
 else: 
     print("Username or password is incorrect! Remember, it's case-sensitive.")
-print("Schedules and lists")
-print('''Monday
+
+listorcreate = input('''Would you like to see the current schedules or make a schedule?
+Type in "Current" to see the current schedules and type "Create" to create a schedule. ''')
+
+if listorcreate == "Current" or "current":
+    print("Schedules and lists")
+    print('''Monday
 Tuesday
 Wednesday
 Thursday
 Friday''')
-print("")
-askSchedules = input("What schedule of the day would you like to know?")
-if askSchedules == "Monday":
-    print(monday)
-elif askSchedules == "Tuesday":
-    print(tuesday)
-elif askSchedules == "Wednesday":
-    print(wednesday)
-elif askSchedules == "Thursday":
-    print(thursday)
-elif askSchedules == "Friday":
-    print(friday)
-elif askSchedules == "Saturday":
-    print(saturday)
-elif askSchedules == "Sunday":
-    print(sunday)
+    print("")
+    askSchedules = input("What schedule of the day would you like to know?")
+    if askSchedules == "Monday":
+        print(monday)
+    elif askSchedules == "Tuesday":
+        print(tuesday)
+    elif askSchedules == "Wednesday":
+        print(wednesday)
+    elif askSchedules == "Thursday":
+        print(thursday)
+    elif askSchedules == "Friday":
+        print(friday)
+    elif askSchedules == "Saturday":
+        print(saturday)
+    elif askSchedules == "Sunday":
+        print(sunday)
+    else:
+        print("Unknown schedule")
 else:
-    print("Unknown schedule")
+    print("Unknown answer.")        
+    
