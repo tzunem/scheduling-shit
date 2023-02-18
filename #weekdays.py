@@ -47,37 +47,38 @@ passask = input('''What is your password?
 
 if userask == usernames and passask == password:
     print("Welcome back", usernames, "!")
-else: 
-    print("Username or password is incorrect! Remember, it's case-sensitive.")
-
-listorcreate = input('''Would you like to see the current schedules or make a schedule?
+    listorcreate = input('''Would you like to see the current schedules or make a schedule?
 Type in "Current" to see the current schedules and type "Create" to create a schedule. ''')
 
-if listorcreate == "Current" or "current":
-    print("Schedules and lists")
-    print('''Monday
+    if listorcreate == "Current" or "current":
+        print("Schedules and lists")
+        print('''Monday
 Tuesday
 Wednesday
 Thursday
 Friday''')
-    print("")
-    askSchedules = input("What schedule of the day would you like to know?")
-    if askSchedules == "Monday" or "monday":
-        print(monday)
-    elif askSchedules == "Tuesday" or "tuesday":
-        print(tuesday)
-    elif askSchedules == "Wednesday" or "wednesday":
-        print(wednesday)
-    elif askSchedules == "Thursday" or "thursday":
-        print(thursday)
-    elif askSchedules == "Friday" or "friday":
-        print(friday)
-    elif askSchedules == "Saturday" or "saturday":
-        print(saturday)
-    elif askSchedules == "Sunday" or "sunday":
-        print(sunday)
+        print("")
+        askSchedules = input("What schedule of the day would you like to know?")
+        if askSchedules == "Monday" or "monday":
+            print(monday)
+        elif askSchedules == "Tuesday" or "tuesday":
+            print(tuesday)
+        elif askSchedules == "Wednesday" or "wednesday":
+            print(wednesday)
+        elif askSchedules == "Thursday" or "thursday":
+            print(thursday)
+        elif askSchedules == "Friday" or "friday":
+            print(friday)
+        elif askSchedules == "Saturday" or "saturday":
+            print(saturday)
+        elif askSchedules == "Sunday" or "sunday":
+            print(sunday)
+        else:
+            print("Unknown schedule")
     else:
-        print("Unknown schedule")
-else:
-    print("Unknown answer.")        
-    
+        print("Unknown answer.")        
+        
+
+else: 
+    print("Username or password is incorrect! Remember, it's case-sensitive.")
+
