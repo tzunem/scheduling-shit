@@ -1,3 +1,4 @@
+from set import everything
 #weekdays
 monday = [8.30, 3.12, 4.00, 6.30, 8.30]
 tuesday = [8.30, 3.12, 3.00, 6.30, 8.30]
